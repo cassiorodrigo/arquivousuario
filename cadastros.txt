@@ -1,0 +1,5 @@
+{'Nome': 'Cassio Rodrigo', 'sobrenome': 'Peluso', 'Data de nascimento': '10/05/1985'}
+{'Nome': 'Cassio', 'sobrenome': 'Morano', 'Data de nascimento': '20/12/1964'}
+{'Nome': 'Cassio', 'Sobrenome': 'Peluso', 'Sexo': 'Masculino', 'Data de nascimento': '10/05/1985'}
+{'Nome': 'Cassio', 'Sobrenome': 'Peluso', 'Sexo': 'Masculino', 'Data de nascimento': '10/05/1985'}
+{7814: {'Nome': 'cassio', 'Sobrenome': 'peluso', 'Sexo': 'Masculino', 'Data de nascimento': '10/05/1985'}}

@@ -1,0 +1,31 @@
+<Gerenciador>:
+    BoasVindas:
+        BoxLayout:
+            orientation:'vertical'
+            Label:
+                text:'Faça o seu Login ou crie uma nova conta'
+            Button:
+                text:'Login'
+
+            Button:
+                text:'Criar nova conta'
+                on_release:root.current='login'
+
+    Login:
+        BoxLayout:
+            TextInput:
+                id:usuario
+                hint_text:'Usuário'
+                multiline: False
+            TextInput:
+                id:senha
+                hint_text:'Senha'
+                multiline: False
+                password: True
+            Button:
+                id:'btn'
+                text:'Ok'
+                on_press:self.parent.parent.logar(usuario.text, senha.text)
+                on_release:root.current='boasvindas'
+CheckBox:
+
